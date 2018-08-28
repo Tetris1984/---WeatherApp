@@ -2,7 +2,7 @@
 <html lang="en" ng-app="weatherApp">
   <head>
     <meta charset="utf-8">
-    <title>Google Phone Gallery</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="app.css" />
 
@@ -10,13 +10,19 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="app.js"></script>
+    <script src="services/people.js"></script>
+    <script src="components/hello.js"></script>
+    <script src="components/about.js"></script>
+    <script src="components/people.js"></script>
+    <script src="components/person.js"></script>
 
   </head>
   <body>
     <a ui-sref="hello" ui-sref-active="active">Hello</a>
     <a ui-sref="about" ui-sref-active="active">About</a>
+    <a ui-sref="people" ui-sref-active="active">People</a>
 
     <ui-view></ui-view>
-  </body>
 </html>
+
 
