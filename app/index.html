@@ -10,19 +10,28 @@
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="app.js"></script>
-    <script src="services/people.js"></script>
+<!--     <script src="services/people.js"></script>
     <script src="components/hello.js"></script>
     <script src="components/about.js"></script>
     <script src="components/people.js"></script>
-    <script src="components/person.js"></script>
+    <script src="components/person.js"></script> -->
 
   </head>
-  <body>
-    <a ui-sref="hello" ui-sref-active="active">Hello</a>
-    <a ui-sref="about" ui-sref-active="active">About</a>
-    <a ui-sref="people" ui-sref-active="active">People</a>
+  <body>fdfdff<br>
 
-    <ui-view></ui-view>
+                <ul class="nav navbar-nav">
+
+
+
+                    <li><a ui-sref="main">Main</a></li>
+                    <li><a ui-sref="main.about">About</a></li>
+                    <li><a ui-sref="main.home">Home</a></li>
+                    <li><a ui-sref="main.weather">Weather</a></li>
+
+                </ul>
+    <div class="container"><ui-view/></div>
+
+
 </html>
 
 
