@@ -1,3 +1,8 @@
+
+
 <div>
-  как параметр вы передали город - {{ city }}
+  <h1>Post Angular Example</h1>
+  <select id="citySelector" style="width: 100%;">
+    <option ng-repeat="user in users" value="{{user.id}}">{{user.login}}</option>
+  </select>
 </div>
